@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="root" class="flex h-screen flex-col items-center justify-center bg-gray-200">
+    <div id="card-container" class="flex w-full max-w-xs flex-col items-center gap-6 rounded-xl bg-white p-6 shadow-xl">
+      <div id="pricing-container" class="flex flex-col gap-2">
+        <h1 id="amount" class="text-center text-3xl font-bold text-gray-700">$585</h1>
+        <p id="setText" class="text-center text-gray-500">Individual Monthly Premium</p>
+      </div>
+      <div id="checkout-container" class="flex flex-col gap-2">
+        <button id="addtocart" class="cursor-pointer rounded-lg border-orange-500 bg-orange-500 px-10 py-2 text-center text-white shadow-lg hover:bg-orange-300" onclick="addUser()">ADD TO CART</button>
+        <p id="summa" class="text-center text-gray-500">Compare to other plans</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
